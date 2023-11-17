@@ -1,0 +1,29 @@
+body {
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border: 5px solid blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 5px solid red;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
